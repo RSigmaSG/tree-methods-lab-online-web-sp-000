@@ -18,7 +18,6 @@ function findOrAdd(node, inputNode)
       if (node.right === null)
       {
         node.right = inputNode
-        inputNode.
       }
       else
       {
@@ -26,9 +25,14 @@ function findOrAdd(node, inputNode)
       }
     }
     else
-    {
+      if (node.left === null)
+      {
+        node.left = inputNode
+      }
+      else
+      {
       node = node.left
-    }
+      }
   }
 }
 
