@@ -19,7 +19,10 @@ function findOrAdd(node, inputNode)
       {
         
       }
+      else
+      {
       node = node.right
+      }
     }
     else
     {
