@@ -9,12 +9,16 @@ function inOrder(currNode)
   }
 }
 
-function findOrAdd(node, num)
+function findOrAdd(node, inputNode)
 {
-  while(node.data != num)
+  while(node.data != inputNode.data)
   {
-    if (num > node.data)
+    if (inputNode.data > node.data)
     {
+      if (node.right === null)
+      {
+        
+      }
       node = node.right
     }
     else
