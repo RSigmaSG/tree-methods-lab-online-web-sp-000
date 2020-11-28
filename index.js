@@ -39,12 +39,20 @@ function findOrAdd(node, inputNode)
   return true;
 }
 
-function max()
+function max(node)
 {
-  
+  while(node.right !== null)
+  {
+    node = node.right
+  }
+  return node.data
 }
 
 function min()
 {
-  
+    while(node.left !== null)
+  {
+    node = node.right
+  }
+  return node.data
 }
