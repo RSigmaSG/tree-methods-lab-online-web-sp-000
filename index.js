@@ -11,7 +11,7 @@ function inOrder(currNode)
 
 function findOrAdd(node, num)
 {
-  until()
+  until(node.left)
 }
 
 function max()
