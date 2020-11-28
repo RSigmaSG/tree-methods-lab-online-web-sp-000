@@ -12,6 +12,16 @@ function inOrder(currNode)
 function findOrAdd(node, num)
 {
   until(node.data != num)
+  {
+    if (num > node.data)
+    {
+      node = node.right
+    }
+    else
+    {
+      node = node.left
+    }
+  }
 }
 
 function max()
