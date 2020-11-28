@@ -48,7 +48,7 @@ function max(node)
   return node
 }
 
-function min()
+function min(node)
 {
     while(node.left !== null)
   {
