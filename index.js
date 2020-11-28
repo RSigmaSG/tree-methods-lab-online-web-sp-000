@@ -52,7 +52,7 @@ function min()
 {
     while(node.left !== null)
   {
-    node = node.right
+    node = node.left
   }
   return node.data
 }
