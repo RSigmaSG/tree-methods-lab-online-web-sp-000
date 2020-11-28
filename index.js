@@ -18,6 +18,7 @@ function findOrAdd(node, inputNode)
       if (node.right === null)
       {
         node.right = inputNode
+        return false
       }
       else
       {
@@ -28,12 +29,14 @@ function findOrAdd(node, inputNode)
       if (node.left === null)
       {
         node.left = inputNode
+        return false
       }
       else
       {
       node = node.left
       }
   }
+  return true;
 }
 
 function max()
