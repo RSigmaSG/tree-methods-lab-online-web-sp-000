@@ -11,7 +11,7 @@ function inOrder(currNode)
 
 function findOrAdd(node, num)
 {
-  until(node.data != num)
+  while(node.data != num)
   {
     if (num > node.data)
     {
