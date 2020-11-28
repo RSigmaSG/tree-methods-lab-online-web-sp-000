@@ -17,7 +17,8 @@ function findOrAdd(node, inputNode)
     {
       if (node.right === null)
       {
-        
+        node.right = inputNode
+        inputNode.
       }
       else
       {
